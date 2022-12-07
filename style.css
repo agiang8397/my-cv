@@ -1,0 +1,97 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+.avartar {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url(./img/2.jpg);
+}
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-image: url(./img/background.jpg);
+}
+.card {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.322);
+
+  border-radius: 20px;
+  max-width: 600px;
+  backdrop-filter: blur(8px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.avartar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -75px;
+  margin: auto;
+}
+.conten {
+  height: 75%;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(48, 33, 17);
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 0%;
+}
+q {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0 8px;
+  display: inline-block;
+}
+p {
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+h5 {
+  display: inline-block;
+  margin: 10px 5px;
+}
+.facebook {
+  text-decoration: none;
+  background-color: rgb(83, 83, 211);
+  padding: 5px;
+  color: aliceblue;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.mxh {
+  text-align: center;
+  margin-top: 30px;
+}
